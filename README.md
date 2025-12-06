@@ -1,7 +1,7 @@
 # Netflix Movies and TV Shows Data Analysis using SQL
 ![](https://github.com/PRAKASH3S/NETFLIX_SQL_PROJECT/blob/main/logo.png)
 This project focuses on exploring and analyzing Netflix’s catalog dataset using SQL to uncover business insights related to content strategy, production trends, and audience distribution.
-##🎯 Objectives
+## 🎯 Objectives
 
 The project aims to:
 
@@ -13,7 +13,7 @@ Demonstrate data engineering practices such as table creation, filtering, aggreg
 
 Practice query optimization and use of advanced SQL concepts like window functions, CTEs, string manipulation, and date extraction.
 
-##🧰 Tools & Technologies
+## 🧰 Tools & Technologies
 
 SQL (PostgreSQL)
 
@@ -21,7 +21,7 @@ Dataset: Netflix titles dataset
 
 Environment: SQL IDE
 
-##🗂️ Database Schema
+## 🗂️ Database Schema
 CREATE TABLE netflix (
     show_id       VARCHAR(6),
     type          VARCHAR(10),
@@ -37,7 +37,7 @@ CREATE TABLE netflix (
     description   VARCHAR(250)
 );
 
-##💡 Business Problems Solved
+## 💡 Business Problems Solved
 
 1.Count the number of Movies vs TV Shows.
 
